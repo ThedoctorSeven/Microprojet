@@ -1,0 +1,72 @@
+<!-- 
+Document : FICHIER HTML
+
+NOMS / Prénoms étudiants (2) : MARCELO MOTTA Bryan & LE TROCQUER Typhaine
+DEUST2 T-MIC (2019)
+Microprojet web : site web (HTML, CSS, JavaScript, création BDD MySQL, PHP programmation objet)
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- déclaration encodage -->         
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<!-- compatibilité IE anciennes versions -->         
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- affichage smartphone Apple échelle 1-->         
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<!-- emplacement pour le contenu de la balise title : essentiel pour le SEO -->
+		<!-- balise title et url à prendre en compte pour le référencement naturel -->
+		<!-- environ 4 pages / une page formulaire... -->
+		<!-- nom bdd : microprojetw_bt -->         
+		<title>{#titre#}</title>
+
+		<!-- emplacement pour le contenu de la méta description. -->         
+		<meta content="{#description#}" name="description">         
+		<!-- chargement de la css -->         
+		<link href="css/style.css" rel="stylesheet" type="text/css" />         
+		<!-- chargement du javascript-->         
+		<script type="text/javascript" src="js/jquery.min.js"></script>        
+		<script type="text/javascript" src="js/script.js"></script>             
+		<!-- chargement de la favicon -->         
+		<link href="images/favicon.png" rel="icon" /> 
+ 
+
+        <!-- Spécial compatibilité avec IE inférieur à 9. Les balises HTML5 ne sont pas reconnues. Chargement d'un js qui les remplacent (https://github.com/aFarkas/html5shiv)-->         
+        <!-- les medias queries ne fonctionnent pas. Il faut un fichier css spécifique -->    
+        <!--[if lte IE 9]>             
+        	<script type="text/javascript" src="js/html5shiv.min.js"></script>             
+       		<link rel="stylesheet" href="css/style_ie.css" type="text/css" media="screen">        
+    	<![endif]--> 
+    	
+		<!-- Required meta tags -->
+		<meta charset="utf-8"> <!-- utf8mb4 -->
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+
+		<!-- Required Bootstrap & CSS links -->
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+  		<!-- JavaScript, jQuery, Popper, Bootstrap links -->
+		<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+			
+	</head>
+
+	<body>
+		
+		  <nav>
+		  	{#menu#}
+		  </nav>         
+		  <section>             
+		  	{#content#}           
+		  </section>   
+
+	</body>
+</html>
